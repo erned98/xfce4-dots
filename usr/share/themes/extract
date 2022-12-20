@@ -1,3 +1,5 @@
+#! /bin/bash
+
 sudo tar -xvf 01-Skeuos-Blue-20220629.tar.xz -C /usr/share/themes
 sudo tar -xvf 02-Skeuos-Black-20220629.tar.xz -C /usr/share/themes
 sudo tar -xvf 03-Skeuos-Grey-20220629.tar.xz -C /usr/share/themes
