@@ -1,0 +1,26 @@
+#! /bin/bash
+
+# copy icons
+cd usr/share/icons
+chmod +x extract
+./extract
+cd ..
+
+# copy themes
+cd themes
+chmod +x extract
+./extract
+cd ..
+
+# copy wallpapers
+cd backgrounds
+chmod +x extract
+./extract
+cd ....
+
+# copy .bashrc
+cp .bashrc
+
+# copy config files
+cp -R .config ~
+cp -R .local ~
