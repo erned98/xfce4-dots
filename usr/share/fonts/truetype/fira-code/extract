@@ -1,0 +1,10 @@
+#! /bin/bash
+
+sudo mkdir /usr/share/fonts/truetype/fira-code
+sudo cp FiraCode-Bold.ttf /usr/share/fonts/truetype/fira-code
+sudo cp FiraCode-Light.ttf /usr/share/fonts/truetype/fira-code
+sudo cp FiraCode-Medium.ttf /usr/share/fonts/truetype/fira-code
+sudo cp FiraCode-Regular.ttf /usr/share/fonts/truetype/fira-code
+sudo cp FiraCode-Retina.ttf /usr/share/fonts/truetype/fira-code
+sudo cp FiraCode-SemiBold.ttf /usr/share/fonts/truetype/fira-code
+sudo fc-cache -f -v
