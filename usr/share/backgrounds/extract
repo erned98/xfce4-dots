@@ -1,1 +1,18 @@
+#! /bin/bash
 
+sudo cp aburden_road.jpg /usr/share/backgrounds
+sudo cp aholmes_moraine_lake.jpg /usr/share/backgrounds
+sudo cp akrivec_slovenia.jpg /usr/share/backgrounds
+sudo cp debian_galaxy.jpg /usr/share/backgrounds
+sudo cp dhoefler_path.jpg /usr/share/backgrounds
+sudo cp dmirlea_norway.jpg /usr/share/backgrounds
+sudo cp eskof_bubble.jpg /usr/share/backgrounds
+sudo cp jrajala_steam_fog.jpg /usr/share/backgrounds
+sudo cp ktaira_estonia.jpg /usr/share/backgrounds
+sudo cp lherrera_retro.jpg /usr/share/backgrounds
+sudo cp lpreda_christmas_tree.jpg /usr/share/backgrounds
+sudo cp mpiwnicki_sky.jpg /usr/share/backgrounds
+sudo cp nwatson_eclipse.jpg /usr/share/backgrounds
+sudo cp pcarmona_road.jpg /usr/share/backgrounds
+sudo cp pfore_mount_baker.jpg /usr/share/backgrounds
+sudo cp ssinclair_psychedelic.jpg /usr/share/backgrounds
