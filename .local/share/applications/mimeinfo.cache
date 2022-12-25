@@ -1,0 +1,17 @@
+[MIME Cache]
+application/json=start-librewolf.desktop;
+application/pdf=start-librewolf.desktop;
+application/rdf+xml=start-librewolf.desktop;
+application/rss+xml=start-librewolf.desktop;
+application/xhtml+xml=start-librewolf.desktop;
+application/xhtml_xml=start-librewolf.desktop;webapp-Messenger0333.desktop;webapp-MicrosoftOffice0711.desktop;
+application/xml=start-librewolf.desktop;
+image/gif=start-librewolf.desktop;
+image/jpeg=start-librewolf.desktop;
+image/png=start-librewolf.desktop;
+image/webp=start-librewolf.desktop;
+text/html=start-librewolf.desktop;webapp-Messenger0333.desktop;webapp-MicrosoftOffice0711.desktop;
+text/xml=start-librewolf.desktop;webapp-Messenger0333.desktop;webapp-MicrosoftOffice0711.desktop;
+x-scheme-handler/http=start-librewolf.desktop;
+x-scheme-handler/https=start-librewolf.desktop;
+x-scheme-handler/spotify=spotify-adblock.desktop;
