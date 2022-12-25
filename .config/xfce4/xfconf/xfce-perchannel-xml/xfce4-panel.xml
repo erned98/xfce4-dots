@@ -6,8 +6,8 @@
     <value type="int" value="1"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=960;y=16"/>
-      <property name="length" type="empty"/>
-      <property name="position-locked" type="empty"/>
+      <property name="length" type="100"/>
+      <property name="position-locked" type="true"/>
       <property name="size" type="uint" value="34"/>
       <property name="background-style" type="empty"/>
       <property name="background-alpha" type="uint" value="100"/>
