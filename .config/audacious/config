@@ -1,0 +1,39 @@
+
+[audacious]
+default_gain=-0.5
+generic_title_format=${title}
+replay_gain_preamp=-0.5
+shuffle=TRUE
+
+[audgui]
+eq_preset_win=764,343,357,297
+equalizer_win=789,347,311,288
+filebrowser_win=583,240,672,480
+info_win=607,275,630,418
+url_opener_win=744,405,384,172
+
+[gtkui]
+column_widths=10,383,297,10,175,175,10,100,36,10,275,275,275,10,275
+player_x=564
+player_y=297
+playlist_columns=title artist length
+playlist_headers=FALSE
+
+[gtkui-layout]
+item0_name=Analizator spektrum
+item0_pos=-1,0,0,284,188
+item1_name=Analizator spektrum OpenGL
+item1_pos=-1,0,0,284,188
+item2_name=Rozmyty zakres
+item2_pos=-1,0,0,284,188
+item_count=3
+
+[history]
+entry0=http://fmdx.pl:8000/kcfm.opus
+entry1=http://www.radio.pionier.net.pl/stream.m3u?radio=radiozak
+entry2=http://fmdx.pl:8000/mpdk.opus
+entry3=http://109.169.23.123:8391/
+
+[notify]
+actions=FALSE
+album=FALSE

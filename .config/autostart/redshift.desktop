@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Redshift
+Comment=Regulacja temperatury barwowej
+Exec=redshift -l 52.10:21.26 -t 4500:3150 -g 0.75 -m randr -v
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=false
+
