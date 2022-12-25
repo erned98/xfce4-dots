@@ -12,11 +12,14 @@ chmod +x extract
 ./extract
 cd ..
 
+# copy fonts
+cd fonts/truetype
+
 # copy wallpapers
 cd backgrounds
 chmod +x extract
 ./extract
-cd ....
+cd ../../..
 
 # copy .bashrc
 cp .bashrc
