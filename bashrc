@@ -116,14 +116,17 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# aliases
+#coloured man
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
 
-#( ͡° ͜ʖ ͡°)
-alias roll='curl -L http://bit.ly/10hA8iC | bash'
+# aliases
 
 #ping count
 alias ping='ping -c 10'
-
-#launch quote at start
-echo -e "\e[1m\e[3m“Simplicitas est ultimum ruditatis.”\n\v\e[0m\t\t\t\tLeonardo da Vinci"
 
