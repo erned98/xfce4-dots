@@ -12,17 +12,17 @@ chmod +x extract
 ./extract
 cd ..
 
-# copy fonts
-cd fonts/truetype/fira-code
-chmod +x extract
-./extract
-cd ..
-
 # copy wallpapers
 cd backgrounds
 chmod +x extract
 ./extract
 cd ../../..
+
+# copy fonts
+cd fonts/truetype/fira-code
+chmod +x extract
+./extract
+cd ..
 
 # copy .bashrc
 cp .bashrc ~
