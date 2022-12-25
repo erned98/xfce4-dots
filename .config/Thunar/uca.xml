@@ -29,19 +29,6 @@
 	<other-files/>
 </action>
 <action>
-	<icon>gnome-run</icon>
-	<name>Check SHA256</name>
-	<unique-id>1664631526293703-4</unique-id>
-	<command>mint-sha256sum %f</command>
-	<description>Computes SHA256 checksum for the selected file.</description>
-	<patterns>*.iso;*.ISO</patterns>
-	<audio-files/>
-	<image-files/>
-	<other-files/>
-	<text-files/>
-	<video-files/>
-</action>
-<action>
 	<icon>gtk-find</icon>
 	<name>Szukaj</name>
 	<unique-id>1664631526293930-5</unique-id>
