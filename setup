@@ -22,7 +22,7 @@ cd ..
 cd fonts/truetype/fira-code
 chmod +x extract
 ./extract
-cd ../../..
+cd ../../../../..
 
 # copy .bashrc
 cp .bashrc ~
