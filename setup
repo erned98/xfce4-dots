@@ -29,6 +29,7 @@ cp .bashrc ~
 
 # copy gedit colorscheme
 sudo cp flat-remix.xml /usr/share/gtksourceview-3.0/styles/
+sudo cp flat-remix.xml /usr/share/gtksourceview-4/styles/
 
 # copy config files
 cp -R .config ~
