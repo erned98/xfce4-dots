@@ -28,5 +28,5 @@ cd ../../../../..
 cp .bashrc ~
 
 # copy config files
-cp -R .config ~/.config
-cp -R .local ~/.local
+cp -R .config ~
+cp -R .local ~
