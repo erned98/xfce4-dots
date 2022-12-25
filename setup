@@ -13,7 +13,10 @@ chmod +x extract
 cd ..
 
 # copy fonts
-cd fonts/truetype
+cd fonts/truetype/fira-code
+chmod +x extract
+./extract
+cd ..
 
 # copy wallpapers
 cd backgrounds
