@@ -1,0 +1,15 @@
+#! /bin/bash
+
+sudo tar -xvf 01-Skeuos-Blue-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 02-Skeuos-Black-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 03-Skeuos-Grey-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 04-Skeuos-Green-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 05-Skeuos-White-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 06-Skeuos-Teal-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 07-Skeuos-Violet-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 08-Skeuos-Cyan-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 09-Skeuos-Red-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 10-Skeuos-Orange-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 11-Skeuos-Yellow-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 12-Skeuos-Magenta-20220629.tar.xz -C /usr/share/themes
+sudo tar -xvf 13-Skeuos-Brown-20220629.tar.xz -C /usr/share/themes

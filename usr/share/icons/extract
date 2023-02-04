@@ -1,0 +1,14 @@
+#! /bin/bash
+
+sudo tar -xvf 01-flat-remix-blue-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 02-flat-remix-green-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 03-flat-remix-red-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 04-flat-remix-yellow-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 05-flat-remix-black-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 06-flat-remix-brown-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 07-flat-remix-cyan-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 08-flat-remix-grey-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 09-flat-remix-magenta-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 10-flat-remix-orange-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 11-flat-remix-teal-20220525.tar.xz -C /usr/share/icons
+sudo tar -xvf 12-flat-remix-violet-20220525.tar.xz -C /usr/share/icons

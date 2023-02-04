@@ -1,0 +1,43 @@
+#! /bin/bash
+
+# copy icons
+cd usr/share/icons
+chmod +x extract
+./extract
+cd ..
+
+# copy themes
+cd themes
+chmod +x extract
+./extract
+cd ..
+
+# copy wallpapers
+cd backgrounds
+chmod +x extract
+./extract
+cd ..
+
+# copy fonts
+cd fonts/truetype/fira-code
+chmod +x extract
+./extract
+cd ../../../../..
+
+# copy .bashrc
+cp ~/.bashrc ~/.bashrc.bak
+cp .bashrc ~
+sudo cp /home/root/.bashrc /home/root/.bashrc.bak
+sudo cp .bashrcroot /home/root/.bashrc
+
+# copy gflat remix colorscheme
+sudo mkdir /usr/share/gtksourceview-3.0/
+sudo mkdir /usr/share/gtksourceview-3.0/styles/
+sudo mkdir /usr/share/gtksourceview-4/
+sudo mkdir /usr/share/gtksourceview-4/styles/
+sudo cp flat-remix.xml /usr/share/gtksourceview-3.0/styles/
+sudo cp flat-remix.xml /usr/share/gtksourceview-4/styles/
+
+# copy config files
+cp -R .config ~
+cp -R .local ~
