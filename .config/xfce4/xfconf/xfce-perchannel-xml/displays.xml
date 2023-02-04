@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="displays" version="1.0">
+  <property name="Default" type="empty">
+    <property name="Notify" type="bool" value="true"/>
+    <property name="AutoEnableProfiles" type="bool" value="true"/>
+    <property name="Virtual1" type="string" value="Virtual1">
+      <property name="Resolution" type="string" value="1536x864"/>
+      <property name="Active" type="bool" value="true"/>
+      <property name="Scale" type="empty">
+        <property name="Y" type="double" value="1"/>
+        <property name="X" type="double" value="1"/>
+      </property>
+      <property name="RefreshRate" type="double" value="60"/>
+    </property>
+  </property>
+  <property name="ActiveProfile" type="string" value="Default"/>
+</channel>
