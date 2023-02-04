@@ -1,0 +1,12 @@
+[Default Values]
+X-pos=32
+Y-pos=0
+Decorations=1
+Expand=0
+tz=/etc/localtime
+fg=rgb(0,0,0)
+bg=rgb(255,255,255)
+
+[Czas lokalny]
+name=Czas lokalny
+tz=/etc/localtime
