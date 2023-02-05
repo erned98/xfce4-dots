@@ -27,10 +27,8 @@ cd ../../../../..
 # copy .bashrc
 cp ~/.bashrc ~/.bashrc.bak
 cp .bashrc ~
-sudo cp /home/root/.bashrc /home/root/.bashrc.bak
-sudo cp .bashrcroot /home/root/.bashrc
 
-# copy gflat remix colorscheme
+# copy flat remix colorscheme
 sudo mkdir /usr/share/gtksourceview-3.0/
 sudo mkdir /usr/share/gtksourceview-3.0/styles/
 sudo mkdir /usr/share/gtksourceview-4/
