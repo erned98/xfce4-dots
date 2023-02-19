@@ -10,6 +10,7 @@
 (monitor-xresolution 142)
 (monitor-yresolution 142)
 (theme "System")
+(icon-theme "Symbolic-High-Contrast")
 (fill-options
     (style solid)
     (antialias yes)
