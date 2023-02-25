@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# remove screenshots folder
+rmdir -p previews
+
 # copy icons
 cd usr/share/icons
 chmod +x extract
