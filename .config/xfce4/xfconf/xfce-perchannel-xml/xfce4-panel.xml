@@ -55,7 +55,6 @@
         <value type="string" value="volumeicon"/>
         <value type="string" value="xfce terminal"/>
         <value type="string" value="blueman-applet"/>
-        <value type="string" value="apt-notifier.py"/>
         <value type="string" value="clipman"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="fbxkb"/>
@@ -65,7 +64,6 @@
       </property>
       <property name="size-max" type="uint" value="24"/>
       <property name="names-ordered" type="array">
-        <value type="string" value="apt-notifier.py"/>
         <value type="string" value="yad"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="networkmanager applet"/>
@@ -80,11 +78,8 @@
         <value type="string" value="fbxkb"/>
       </property>
       <property name="known-items" type="array">
-        <value type="string" value="mx-tweak"/>
         <value type="string" value="blueman"/>
         <value type="string" value="vlc"/>
-        <value type="string" value="apt-notifier.py"/>
-        <value type="string" value="mx-usb-unmounter"/>
       </property>
       <property name="hidden-legacy-items" type="array">
         <value type="string" value="deadbeef"/>
@@ -95,7 +90,6 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="hidden-items" type="array">
         <value type="string" value="vlc"/>
-        <value type="string" value="mx-tweak"/>
       </property>
     </property>
     <property name="plugin-20" type="string" value="whiskermenu"/>
@@ -119,7 +113,7 @@
     </property>
     <property name="plugin-5" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="audacious;firefox.instance10526;firefox.instance10893;firefox.instance11439;firefox.instance12106;firefox.instance12415;firefox.instance13702;firefox.instance14836;firefox.instance15797;firefox.instance19071;firefox.instance19764;firefox.instance21535;firefox.instance24247;firefox.instance2977;firefox.instance2979;firefox.instance2986;firefox.instance2994;firefox.instance3027;firefox.instance3051;firefox.instance3068;firefox.instance3077;firefox.instance3078;firefox.instance3081;firefox.instance3091;firefox.instance3097;firefox.instance3098;firefox.instance3103;firefox.instance3109;firefox.instance3120;firefox.instance3123;firefox.instance3133;firefox.instance3138;firefox.instance3151;firefox.instance3154;firefox.instance3155;firefox.instance3159;firefox.instance3165;firefox.instance3189;firefox.instance3197;firefox.instance3203;firefox.instance3204;firefox.instance3207;firefox.instance3220;firefox.instance3223;firefox.instance3225;firefox.instance3226;firefox.instance3228;firefox.instance3230;firefox.instance3243;firefox.instance3245;firefox.instance3246;firefox.instance3253;firefox.instance3254;firefox.instance3280;firefox.instance3281;firefox.instance3304;firefox.instance3311;firefox.instance3323;firefox.instance3345;firefox.instance3395;firefox.instance3512;firefox.instance3554;firefox.instance36382;firefox.instance3833;firefox.instance3839;firefox.instance5708;firefox.instance5759;firefox.instance5764;firefox.instance6656;firefox.instance7318;vlc"/>
+      <property name="mpris-players" type="string" value="audacious;vlc"/>
     </property>
     <property name="plugin-7" type="string" value="power-manager-plugin"/>
     <property name="clipman" type="empty">
