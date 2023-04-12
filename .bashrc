@@ -129,6 +129,3 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 #ping count
 alias ping='ping -c 10'
-
-#launch at start
-echo "" && neofetch
