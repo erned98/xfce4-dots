@@ -8,7 +8,7 @@ TrackedCore=0
 InTerminal=1
 StartupNotification=0
 ColorMode=1
-Foreground1=rgb(2,63,51)
+Foreground1=rgb(6,162,132)
 Foreground2=rgb(249,123,0)
 BarsColor=rgb(12,207,217)
 
