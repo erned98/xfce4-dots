@@ -1,4 +1,4 @@
-favorites=mx-tools.desktop,Help.desktop,FAQ.desktop
+favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
 recent=
 button-title=Applications Menu
 button-icon=/usr/share/icons/Flat-Remix-Blue-Dark/apps/scalable/desktop-environment-xfce.svg
