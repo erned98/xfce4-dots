@@ -2,26 +2,26 @@
 <actions>
 <action>
    <icon></icon>
-   <name>Run command ...</name>
-   <name xml:lang="am">ትእዛዝ ማስኬጃ ...</name>
-   <name xml:lang="ca">Executa ordre ...</name>
-   <name xml:lang="da">Kør kommando ...</name>
-   <name xml:lang="de">Befehl ausführen ...</name>
-   <name xml:lang="el">Εκτέλεση εντολής ...</name>
-   <name xml:lang="es">Ejecutar orden ...</name>
-   <name xml:lang="fi">Suorita komento ...</name>
-   <name xml:lang="fr">Exécuter une commande ...</name>
-   <name xml:lang="it">Esegui comando ...</name>
-   <name xml:lang="lt">Vykdyti komandą ...</name>
-   <name xml:lang="nl">Commando uitvoeren ...</name>
-   <name xml:lang="pl">Uruchom polecenie ...</name>
-   <name xml:lang="pt_BR">Executar comando ...</name>
-   <name xml:lang="pt">Executar comando ...</name>
-   <name xml:lang="ru">Выполнить команду ...</name>
-   <name xml:lang="sk">Spustiť príkaz ...</name>
-   <name xml:lang="sl">Izvedi ukaz ...</name>
-   <name xml:lang="sv">Kör kommando ...</name>
-   <name xml:lang="tr">Run command ...</name>
+   <name>Run command...</name>
+   <name xml:lang="am">ትእዛዝ ማስኬጃ...</name>
+   <name xml:lang="ca">Executa ordre...</name>
+   <name xml:lang="da">Kør kommando...</name>
+   <name xml:lang="de">Befehl ausführen...</name>
+   <name xml:lang="el">Εκτέλεση εντολής...</name>
+   <name xml:lang="es">Ejecutar orden...</name>
+   <name xml:lang="fi">Suorita komento...</name>
+   <name xml:lang="fr">Exécuter une commande...</name>
+   <name xml:lang="it">Esegui comando...</name>
+   <name xml:lang="lt">Vykdyti komandą...</name>
+   <name xml:lang="nl">Commando uitvoeren...</name>
+   <name xml:lang="pl">Uruchom polecenie...</name>
+   <name xml:lang="pt_BR">Executar comando...</name>
+   <name xml:lang="pt">Executar comando...</name>
+   <name xml:lang="ru">Выполнить команду...</name>
+   <name xml:lang="sk">Spustiť príkaz...</name>
+   <name xml:lang="sl">Izvedi ukaz...</name>
+   <name xml:lang="sv">Kör kommando...</name>
+   <name xml:lang="tr">Run command...</name>
    <name xml:lang="zh_TW">執行某命令……</name>
    <unique-id>1391443541044100-3</unique-id>
    <command>xfce4-appfinder --collapsed</command>
@@ -56,7 +56,7 @@
 </action>
 <action>
    <icon>utilities-terminal</icon>
-   <name>Open Terminal Here</name>
+   <name>Open terminal Here</name>
    <name xml:lang="am">ተርሚናል እዚህ መክፈቻ</name>
    <name xml:lang="ca">Obre un terminal aquí</name>
    <name xml:lang="da">Åbn terminal her</name>
@@ -67,22 +67,22 @@
    <name xml:lang="fr">Ouvrir un terminal ici</name>
    <name xml:lang="it">Apri il terminale qui</name>
    <name xml:lang="lt">Atverti čia terminalą</name>
-   <name xml:lang="nl">Open Terminal Hier</name>
-   <name xml:lang="pl">Otwórz tutaj Terminal</name>
-   <name xml:lang="pt_BR">Abrir Terminal aqui</name>
-   <name xml:lang="pt">Abrir Terminal aqui</name>
+   <name xml:lang="nl">Open terminal Hier</name>
+   <name xml:lang="pl">Otwórz tutaj terminal</name>
+   <name xml:lang="pt_BR">Abrir terminal aqui</name>
+   <name xml:lang="pt">Abrir terminal aqui</name>
    <name xml:lang="ru">Открыть терминал здесь</name>
    <name xml:lang="sk">Otvoriť Terminál tu</name>
    <name xml:lang="sl">Tukaj odprite termnal</name>
-   <name xml:lang="sv">Öppna Terminal här</name>
+   <name xml:lang="sv">Öppna terminal här</name>
    <name xml:lang="zh_TW">在此處開啟終端機</name>
    <unique-id>1388590880939619-1</unique-id>
-   <command>exo-open --working-directory %f --launch TerminalEmulator</command>
+   <command>exo-open --working-directory %f --launch terminalEmulator</command>
    <description>Launch terminal emulator here</description>
    <description xml:lang="am">Launch terminal emulator here</description>
    <description xml:lang="ca">Engega un emulador de terminal aquí</description>
    <description xml:lang="da">Start terminalemulator her</description>
-   <description xml:lang="de">Einen Terminal-Emulator hier starten</description>
+   <description xml:lang="de">Einen terminal-Emulator hier starten</description>
    <description xml:lang="el">Εκκινήστε τον εξομοιωτή τερματικού εδώ</description>
    <description xml:lang="es">Iniciar emulador de consola aquí</description>
    <description xml:lang="fi">Avaa pääte tässä kansiossa</description>
@@ -96,7 +96,7 @@
    <description xml:lang="ru">Запуск эмулятора терминала здесь</description>
    <description xml:lang="sk">Spustiť emulátor terminálu v tomto umiestnení</description>
    <description xml:lang="sl">Tukaj zaženi emulator terminala</description>
-   <description xml:lang="sv">Starta Terminalemulator här</description>
+   <description xml:lang="sv">Starta terminalemulator här</description>
    <description xml:lang="zh_TW">在此處啟動終端機模擬程式</description>
    <patterns>*</patterns>
    <startup-notify/>
@@ -156,28 +156,28 @@
 </action>
 <action>
    <icon></icon>
-   <name>Edit as Root</name>
-   <name xml:lang="am">Root ማረሚያ እንደ</name>
+   <name>Edit as root</name>
+   <name xml:lang="am">root ማረሚያ እንደ</name>
    <name xml:lang="ca">Edita com a root</name>
    <name xml:lang="da">Rediger som root</name>
-   <name xml:lang="de">Als Root bearbeiten</name>
-   <name xml:lang="el">Επεξεργασία ως Root </name>
+   <name xml:lang="de">Als root bearbeiten</name>
+   <name xml:lang="el">Επεξεργασία ως root </name>
    <name xml:lang="es">Editar como raiz/root</name>
    <name xml:lang="fi">Muokkaa pääkäyttäjänä</name>
    <name xml:lang="fr">Éditer en tant que root</name>
-   <name xml:lang="it">Edita come Root</name>
-   <name xml:lang="lt">Edit as Root</name>
-   <name xml:lang="nl">Aanpassen als Root</name>
-   <name xml:lang="pl">Edytuj jako Root</name>
-   <name xml:lang="pt_BR">Editar como administrador (Root)</name>
-   <name xml:lang="pt">Editar como administrador (Root)</name>
-   <name xml:lang="ru">Редактировать от Root</name>
-   <name xml:lang="sk">Edit as Root</name>
+   <name xml:lang="it">Edita come root</name>
+   <name xml:lang="lt">Edit as root</name>
+   <name xml:lang="nl">Aanpassen als root</name>
+   <name xml:lang="pl">Edytuj jako root</name>
+   <name xml:lang="pt_BR">Editar como administrador (root)</name>
+   <name xml:lang="pt">Editar como administrador (root)</name>
+   <name xml:lang="ru">Редактировать от root</name>
+   <name xml:lang="sk">Edit as root</name>
    <name xml:lang="sl">Uredi kot root</name>
-   <name xml:lang="sv">Redigera som Root</name>
+   <name xml:lang="sv">Redigera som root</name>
    <name xml:lang="zh_TW">以 root 身份編輯</name>
    <unique-id>1389150009142611-4</unique-id>
-   <command>/usr/bin/mx-edit-as-root.sh %f;</command>
+   <command>gksu mousepad %f</command>
    <description>Make administrative changes to text files</description>
    <description xml:lang="am">Make administrative changes to text files</description>
    <description xml:lang="ca">Fa canvis d'administració a fitxers de text</description>
@@ -299,199 +299,6 @@
    <directories/>
    <other-files/>
    <text-files/>
-</action>
-<action>
-   <icon></icon>
-   <name>Compute sha/md5sum</name>
-   <unique-id>1426501025005582-4</unique-id>
-   <name xml:lang="am">የ ኮምፒዩተር sha/md5sum</name>
-   <name xml:lang="ca">Calcula el  sha/md5sum</name>
-   <name xml:lang="da">Beregn sha/md5sum</name>
-   <name xml:lang="de">Berechne sha/md5sum</name>
-   <name xml:lang="el">Υπολογίστε το sha/md5sum</name>
-   <name xml:lang="es">Computar sha/md5sum</name>
-   <name xml:lang="fi">Laske sha/md5-tarkistussumma</name>
-   <name xml:lang="fr">Calculer la somme de contrôle sha/md5</name>
-   <name xml:lang="it">Computa lo sha/md5sum</name>
-   <name xml:lang="lt">Apskaičiuoti sha/md5sum</name>
-   <name xml:lang="nl">Bereken sha/md5sum</name>
-   <name xml:lang="pl">Oblicz sha/md5sum</name>
-   <name xml:lang="pt_BR">Computar a sha/md5sum</name>
-   <name xml:lang="pt">Computar a sha/md5sum</name>
-   <name xml:lang="ru">Посчитать sha/md5sum</name>
-   <name xml:lang="sk">Compute sha/md5sum</name>
-   <name xml:lang="sl">Izračunaj sha/md5sum</name>
-   <name xml:lang="sv">Beräkna sha/md5sum</name>
-   <name xml:lang="tr">Compute sha/md5sum</name>
-   <name xml:lang="zh_TW">計算 sha/md5sum</name>
-   <command>yad --info --title=&quot;Computed checksums for %n&quot; --text=&quot;$(echo; echo -n &apos;md5:     &apos; `md5sum %n | awk &apos;{print $1}&apos;`; echo; echo &apos;sha256:&apos; `sha256sum %n | awk &apos;{print $1}&apos;`)&quot; --height=280 --center --button=gtk-close | yad --width=350 --height=250 --progress --percentage=&quot;50&quot; --auto-kill --auto-close --title=&quot;Checksum utility&quot; --text=&quot;Calculating checksums for %n&quot;  --center --button=gtk-close</command>
-   <description>Display checksum of ISO</description>
-   <description xml:lang="am">Display checksum of ISO</description>
-   <description xml:lang="ca">Mostra la suma de verificació d'un ISO</description>
-   <description xml:lang="da">Vis checksum for ISO</description>
-   <description xml:lang="de">Prüfsumme einer ISO anzeigen</description>
-   <description xml:lang="el">Εμφάνιση το άθροισμα ελέγχου του ISO</description>
-   <description xml:lang="es">Mostrar valor del md5sum del ISO</description>
-   <description xml:lang="fi">Näytä ISO-tiedoston tarkistussumma</description>
-   <description xml:lang="fr">Afficher la somme de contrôle de l'ISO</description>
-   <description xml:lang="it">Visualizzare la somma md5 dell'ISO</description>
-   <description xml:lang="lt">Rodyti ISO failo kontrolinę sumą</description>
-   <description xml:lang="nl">Laat checksum van ISO zien</description>
-   <description xml:lang="pl">Wyświetl sumę kontrolną obrazu ISO</description>
-   <description xml:lang="pt_BR">Exibe a soma de controlo (checksum) da ISO</description>
-   <description xml:lang="pt">Exibe a soma de controlo (checksum) da ISO</description>
-   <description xml:lang="ru">Показ контрольной суммы ISO</description>
-   <description xml:lang="sk">Display checksum of ISO</description>
-   <description xml:lang="sl">Prikaži preizkusno vsoto za ISO</description>
-   <description xml:lang="sv">Visa checksum för ISO</description>
-   <description xml:lang="tr">ISO 'nun sağlama toplamını göster</description>
-   <description xml:lang="zh_TW">顯示 ISO 檔的檢查碼</description>
-   <patterns>*.iso;*.ISO</patterns>
-   <other-files/>
-</action>
-<action>
-   <icon></icon>
-   <name>Check data integrity</name>
-   <unique-id>1426501047462724-5</unique-id>
-   <name xml:lang="am">የ ዳታ አስተማማኝነት መመርመሪያ</name>
-   <name xml:lang="ca">Comprova la integritat de les dades</name>
-   <name xml:lang="da">Tjek dataintegritet</name>
-   <name xml:lang="de">Datenintegrität prüfen</name>
-   <name xml:lang="el">Ελέγξτε την ακεραιότητα των δεδομένων</name>
-   <name xml:lang="es">Verificar integridad de datos</name>
-   <name xml:lang="fi">Tarkista tiedon eheys</name>
-   <name xml:lang="fr">Contrôler l'intégrité des données</name>
-   <name xml:lang="it">Controlla l'integrità dei dati</name>
-   <name xml:lang="lt">Tikrinti duomenų vientisumą</name>
-   <name xml:lang="nl">Controleer data integriteit</name>
-   <name xml:lang="pl">Sprawdź integralność danych</name>
-   <name xml:lang="pt_BR">Verificar a integridade dos dados</name>
-   <name xml:lang="pt">Verificar a integridade dos dados</name>
-   <name xml:lang="ru">Проверка целостности данных</name>
-   <name xml:lang="sk">Check data integrity</name>
-   <name xml:lang="sl">Preveri integriteto podatkov</name>
-   <name xml:lang="sv">Kontrollera dataintegritet</name>
-   <name xml:lang="tr">Check data integrity</name>
-   <name xml:lang="zh_TW">檢查資料完整性</name>
-   <command>hashType=&quot;$(echo %n | awk -F &quot;.&quot; &apos;{print $NF}&apos; | sed s/sum//)&quot; &amp;&amp; yad --info --title=&quot;$hashType&quot;&quot; sum result&quot; --width=400 --height=200 --center --text=&quot;\n    $(&quot;$hashType&quot;sum -c %f)&quot;&quot;\n&quot; --button=gtk-close  | yad --progress  --percentage=&quot;50&quot; --auto-kill --auto-close --center --title=&quot;Checksum utility&quot; --text=&quot;    Checking &quot;&quot;$hashType&quot;&quot; sum of    \n&quot;&quot;    &quot;&quot;$(echo %n | rev | cut -f2- -d. | rev)&quot;&quot;    &quot;</command>
-   <description>Compare ISO and hash files</description>
-   <description xml:lang="am">Compare ISO and hash files</description>
-   <description xml:lang="ca">Compara els fitxers ISO i hash</description>
-   <description xml:lang="da">Sammenlign ISO- og hash-filer</description>
-   <description xml:lang="de">Überprüfung von ISO-Dateien mittels Hash-Dateien (md5, sha1, sha256, sha512 ...)</description>
-   <description xml:lang="el">Συγκρίνετε τα αρχεία ISO και hash</description>
-   <description xml:lang="es">Comparar archivos de ISO y hash</description>
-   <description xml:lang="fi">Vertaa ISO ja hash-tiedostoja</description>
-   <description xml:lang="fr">Comparer les fichiers ISO et somme de contrôle md5/sha</description>
-   <description xml:lang="it">Comparare tra loro i file ISO e hash</description>
-   <description xml:lang="lt">Palyginti ISO ir hash failus</description>
-   <description xml:lang="nl">Vergelijk ISO en hash bestanden</description>
-   <description xml:lang="pl">Porównaj obraz ISO i pliki hash</description>
-   <description xml:lang="pt_BR">Calcula a hash da ISO e compara-a com a hash constante no ficheiro md5/sha</description>
-   <description xml:lang="pt">Calcula a hash da ISO e compara-a com a hash constante no ficheiro md5/sha</description>
-   <description xml:lang="ru">Сравнение файлов ISO и hash</description>
-   <description xml:lang="sk">Compare ISO and hash files</description>
-   <description xml:lang="sl">Primerja ISO in razpršitvene datoteke</description>
-   <description xml:lang="sv">Jämför ISO och hash-filer</description>
-   <description xml:lang="tr">ISO ve sağlama dosyalarını karşılaştır</description>
-   <description xml:lang="zh_TW">比對 ISO 檔和 hash 檔案</description>
-   <patterns>*.md5;*.md5sum;*.sha;*.shasum;*.sha1;*.sha1sum;*.sha224;*.sha224sum;*.sha256;*.sha256sum;*.sha384;*.sha384sum;*.sha512;*.sha512sum</patterns>
-   <other-files/>
-   <text-files/>
-</action>
-<action>
-   <icon></icon>
-   <name>Make Startup Sound</name>
-   <name xml:lang="am">የ ማስጀመሪያ ድምፅ ማሰሚያ</name>
-   <name xml:lang="ca">Fes un so d'arrencada</name>
-   <name xml:lang="da">Foretag opstartslyd</name>
-   <name xml:lang="de">Startsound festlegen</name>
-   <name xml:lang="el">ήχο εκκίνησης</name>
-   <name xml:lang="es">Haga sonar el sonido de Inicio</name>
-   <name xml:lang="fi">Soita kirjautumisääni</name>
-   <name xml:lang="fr">Choisir comme son de connexion</name>
-   <name xml:lang="it">Imposta il suono di avvio</name>
-   <name xml:lang="lt">Make Startup Sound</name>
-   <name xml:lang="nl">Maak Opstartgeluid</name>
-   <name xml:lang="pl">Użyj jako dźwięk startowy</name>
-   <name xml:lang="pt_BR">Reproduzir Som de Iniciação</name>
-   <name xml:lang="pt">Reproduzir Som de Iniciação</name>
-   <name xml:lang="ru">Создать звук при входе</name>
-   <name xml:lang="sk">Make Startup Sound</name>
-   <name xml:lang="sl">Naredi zagonski zvok</name>
-   <name xml:lang="sv">Gör ett ljud vid Start</name>
-   <name xml:lang="zh_TW">設為啟動音效</name>
-   <unique-id>1447629663342880-3</unique-id>
-   <command>mkdir -p ~/.config/MX-Linux/mx-system-sounds; echo %f &gt;~/.config/MX-Linux/mx-system-sounds/startupsound.conf</command>
-   <description>Make selected Startup Sound</description>
-   <description xml:lang="am">Make selected Startup Sound</description>
-   <description xml:lang="ca">Fes el so d'arrencada seleccionat</description>
-   <description xml:lang="da">Foretag valgte opstartslyd</description>
-   <description xml:lang="de">Gewählten Sound für den Start verwenden</description>
-   <description xml:lang="el">επιλεγμένη εκκίνηση ήχου</description>
-   <description xml:lang="es">Tocar el sonido de Inicio seleccionado</description>
-   <description xml:lang="fi">Tee valitusta sisäänkirjautumisen ääni</description>
-   <description xml:lang="fr">Le fichier sélectionné devient le son de connexion</description>
-   <description xml:lang="it">Impostare il suono di avvio selezionato</description>
-   <description xml:lang="lt">Make selected Startup Sound</description>
-   <description xml:lang="nl">Maak geselecteerd Opstartgeluid</description>
-   <description xml:lang="pl">Użyj wybranego pliku jako dźwięk startowy</description>
-   <description xml:lang="pt_BR">Reproduz o Som de Iniciação seleccionado</description>
-   <description xml:lang="pt">Reproduz o Som de Iniciação seleccionado</description>
-   <description xml:lang="ru">Назначение выбранного звука для входа</description>
-   <description xml:lang="sk">Make selected Startup Sound</description>
-   <description xml:lang="sl">Naredi izbrani zagonski zvok</description>
-   <description xml:lang="sv">Gör utvalt Startljud</description>
-   <description xml:lang="zh_TW">將目前選擇的檔案設為啟動音效</description>
-   <patterns>*</patterns>
-   <audio-files/>
-</action>
-<action>
-   <icon></icon>
-   <name>Make Logout Sound</name>
-   <name xml:lang="am">የ መውጫ ድምፅ ማሰሚያ</name>
-   <name xml:lang="ca">Fes un so de sortida</name>
-   <name xml:lang="da">Foretag udlogningslyd</name>
-   <name xml:lang="de">Abmeldesound festlegen</name>
-   <name xml:lang="el">ήχο αποσύνδεσης</name>
-   <name xml:lang="es">Haga sonar el sonido de Salir</name>
-   <name xml:lang="fi">Tee poistumisääni</name>
-   <name xml:lang="fr">Choisir comme son de déconnexion</name>
-   <name xml:lang="it">Imposta il suono di uscita</name>
-   <name xml:lang="lt">Make Logout Sound</name>
-   <name xml:lang="nl">Maak Afmeldgeluid</name>
-   <name xml:lang="pl">Użyj jako dźwięk wylogowania</name>
-   <name xml:lang="pt_BR">Reproduzir Som de Saída</name>
-   <name xml:lang="pt">Reproduzir Som de Saída</name>
-   <name xml:lang="ru">Создать звук при выходе</name>
-   <name xml:lang="sk">Make Logout Sound</name>
-   <name xml:lang="sl">Naredi odjavni zvok</name>
-   <name xml:lang="sv">Gör ett ljud vid Utloggning</name>
-   <name xml:lang="zh_TW">設為登出音效</name>
-   <unique-id>1447629663342880-4</unique-id>
-   <command>mkdir -p ~/.config/MX-Linux/mx-system-sounds; echo %f &gt;~/.config/MX-Linux/mx-system-sounds/logoutsound.conf</command>
-   <description>Make selected Logout Sound</description>
-   <description xml:lang="am">Make selected Logout Sound</description>
-   <description xml:lang="ca">Fes el so de sortida seleccionat</description>
-   <description xml:lang="da">Foretag valgte udlogningslyd</description>
-   <description xml:lang="de">Gewählten Sound beim Abmelden verwenden</description>
-   <description xml:lang="el">επιλεγμένο ήχο αποσύνδεσης</description>
-   <description xml:lang="es">Tocar el sonido de Salir seleccionado</description>
-   <description xml:lang="fi">Tee valitusta uloskirjautumisen ääni</description>
-   <description xml:lang="fr">Le fichier sélectionné devient le son de déconnexion</description>
-   <description xml:lang="it">Impostare il suono di uscita selezionato</description>
-   <description xml:lang="lt">Make selected Logout Sound</description>
-   <description xml:lang="nl">Maak geselecteerd Afmeldgeluid</description>
-   <description xml:lang="pl">Użyj wybranego pliku jako dźwięk wylogowania</description>
-   <description xml:lang="pt_BR">Reproduz o Som de Saída seleccionado</description>
-   <description xml:lang="pt">Reproduz o Som de Saída seleccionado</description>
-   <description xml:lang="ru">Назначение выбранного звука для выхода</description>
-   <description xml:lang="sk">Make selected Logout Sound</description>
-   <description xml:lang="sl">Naredi izbrani odjavni zvok</description>
-   <description xml:lang="sv">Gör utvalt Logout ljud</description>
-   <description xml:lang="zh_TW">將目前選擇的檔案設為登出音效</description>
-   <patterns>*</patterns>
-   <audio-files/>
 </action>
 <action>
    <icon>application-x-deb</icon>
