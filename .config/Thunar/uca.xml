@@ -116,7 +116,7 @@
    <name xml:lang="it">Apri root Thunar qui</name>
    <name xml:lang="lt">Open root Thunar here</name>
    <name xml:lang="nl">Open root Thunar hier</name>
-   <name xml:lang="pl">Otwórz tutaj jako root Thunar</name>
+   <name xml:lang="pl">Otwórz tutaj jako root</name>
    <name xml:lang="pt_BR">Abrir Thunar de raíz aqui</name>
    <name xml:lang="pt">Abrir Thunar de raíz aqui</name>
    <name xml:lang="ru">Открыть папку от root</name>
@@ -177,7 +177,7 @@
    <name xml:lang="sv">Redigera som root</name>
    <name xml:lang="zh_TW">以 root 身份編輯</name>
    <unique-id>1389150009142611-4</unique-id>
-   <command>gksu mousepad %f</command>
+   <command>pkexec mousepad %f</command>
    <description>Make administrative changes to text files</description>
    <description xml:lang="am">Make administrative changes to text files</description>
    <description xml:lang="ca">Fa canvis d'administració a fitxers de text</description>
