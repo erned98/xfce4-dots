@@ -9,6 +9,10 @@
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="35"/>
+      <property name="background-style" type="int" value="0"/>
+      <property name="background-alpha" type="empty"/>
+      <property name="enter-opacity" type="empty"/>
+      <property name="leave-opacity" type="empty"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="20"/>
         <value type="int" value="2"/>
@@ -22,7 +26,7 @@
         <value type="int" value="14"/>
         <value type="int" value="16"/>
         <value type="int" value="15"/>
-        <value type="int" value="17"/>
+        <value type="int" value="8"/>
         <value type="int" value="6"/>
         <value type="int" value="5"/>
         <value type="int" value="19"/>
@@ -31,25 +35,37 @@
         <value type="int" value="21"/>
         <value type="int" value="9"/>
       </property>
-      <property name="background-style" type="int" value="0"/>
       <property name="mode" type="int" value="0"/>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="nrows" type="uint" value="1"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.75"/>
-        <value type="double" value="0.25"/>
-        <value type="double" value="0.25"/>
-        <value type="double" value="0"/>
+        <value type="double" value="0.750000"/>
+        <value type="double" value="0.250000"/>
+        <value type="double" value="0.250000"/>
+        <value type="double" value="0.000000"/>
       </property>
       <property name="icon-size" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-15" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
+    <property name="plugin-1" type="string" value="datetime"/>
+    <property name="plugin-2" type="string" value="separator"/>
+    <property name="plugin-3" type="string" value="showdesktop">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-4" type="string" value="places">
+      <property name="items" type="empty"/>
+      <property name="show-recent-number" type="int" value="5"/>
+      <property name="mount-open-volumes" type="bool" value="true"/>
+    </property>
+    <property name="plugin-5" type="string" value="pulseaudio">
+      <property name="items" type="empty"/>
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="audacious;vlc"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
+      <property name="show-handle" type="empty"/>
+      <property name="middle-click" type="empty"/>
       <property name="names-visible" type="array">
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="volumeicon"/>
@@ -70,6 +86,8 @@
         <value type="string" value="clipit"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="mintupdate.py"/>
+        <value type="string" value="tray.py"/>
         <value type="string" value="deadbeef"/>
         <value type="string" value="bluetooth włączony"/>
         <value type="string" value="notatki"/>
@@ -83,17 +101,22 @@
       </property>
       <property name="hidden-legacy-items" type="array">
         <value type="string" value="deadbeef"/>
-        <value type="string" value="bluetooth włączony"/>
       </property>
       <property name="hide-new-items" type="bool" value="true"/>
-      <property name="icon-size" type="int" value="0"/>
+      <property name="icon-size" type="int" value="21"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="hidden-items" type="array">
         <value type="string" value="vlc"/>
       </property>
     </property>
-    <property name="plugin-20" type="string" value="whiskermenu"/>
-    <property name="plugin-1" type="string" value="datetime"/>
+    <property name="plugin-7" type="string" value="power-manager-plugin">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-8" type="string" value="cpugraph">
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="empty"/>
+    </property>
     <property name="plugin-9" type="string" value="actions">
       <property name="appearance" type="uint" value="0"/>
       <property name="items" type="array">
@@ -111,11 +134,35 @@
         <value type="string" value="-hybrid-sleep"/>
       </property>
     </property>
-    <property name="plugin-5" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="audacious;vlc"/>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16778446563.desktop"/>
+      </property>
     </property>
-    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16778446764.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+    </property>
+    <property name="plugin-13" type="string" value="pager">
+      <property name="digital-format" type="empty"/>
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator"/>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="whiskermenu"/>
     <property name="clipman" type="empty">
       <property name="tweaks" type="empty">
         <property name="never-confirm-history-clear" type="bool" value="true"/>
@@ -127,30 +174,6 @@
         <property name="max-texts-in-history" type="uint" value="10"/>
       </property>
     </property>
-    <property name="plugin-2" type="string" value="separator"/>
-    <property name="plugin-3" type="string" value="showdesktop"/>
-    <property name="plugin-4" type="string" value="places">
-      <property name="show-recent-number" type="int" value="5"/>
-      <property name="mount-open-volumes" type="bool" value="true"/>
-    </property>
-    <property name="plugin-10" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16778446563.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-11" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16778446764.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-12" type="string" value="separator"/>
-    <property name="plugin-13" type="string" value="pager">
-      <property name="rows" type="uint" value="1"/>
-      <property name="miniature-view" type="bool" value="false"/>
-      <property name="workspace-scrolling" type="bool" value="false"/>
-      <property name="numbering" type="bool" value="false"/>
-    </property>
-    <property name="plugin-14" type="string" value="separator"/>
     <property name="plugin-16" type="string" value="tasklist">
       <property name="show-handle" type="bool" value="false"/>
       <property name="show-labels" type="bool" value="false"/>
