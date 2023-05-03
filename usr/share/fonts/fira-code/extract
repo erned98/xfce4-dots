@@ -1,1 +1,9 @@
+#! /bin/bash
 
+sudo mkdir /usr/share/fonts/fira-code
+sudo cp FiraCodeNerdFont-Bold.ttf /usr/share/fonts/fira-code
+sudo cp FiraCodeNerdFont-Light.ttf /usr/share/fonts/fira-code
+sudo cp FiraCodeNerdFont-Medium.ttf /usr/share/fonts/fira-code
+sudo cp FiraCodeNerdFont-Regular.ttf /usr/share/fonts/fira-code
+sudo cp FiraCodeNerdFont-Retina.ttf /usr/share/fonts/fira-code
+sudo cp FiraCodeNerdFont-SemiBold.ttf /usr/share/fonts/fira-code
