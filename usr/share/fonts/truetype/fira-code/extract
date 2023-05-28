@@ -7,3 +7,4 @@ sudo cp FiraCodeNerdFont-Medium.ttf /usr/share/fonts/truetype/fira-code
 sudo cp FiraCodeNerdFont-Regular.ttf /usr/share/fonts/truetype/fira-code
 sudo cp FiraCodeNerdFont-Retina.ttf /usr/share/fonts/truetype/fira-code
 sudo cp FiraCodeNerdFont-SemiBold.ttf /usr/share/fonts/truetype/fira-code
+sudo fc-cache -f -v
