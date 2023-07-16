@@ -56,7 +56,6 @@
         <value type="string" value="volumeicon"/>
         <value type="string" value="xfce terminal"/>
         <value type="string" value="blueman-applet"/>
-        <value type="string" value="apt-notifier.py"/>
         <value type="string" value="clipman"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="fbxkb"/>
@@ -74,10 +73,8 @@
       </property>
       <property name="known-legacy-items" type="array">
         <value type="string" value="deadbeef"/>
-        <value type="string" value="bluetooth włączony"/>
         <value type="string" value="notatki"/>
         <value type="string" value="aplet networkmanager"/>
-        <value type="string" value="menedżer schowka"/>
         <value type="string" value="fbxkb"/>
       </property>
       <property name="known-items" type="array">
@@ -89,7 +86,6 @@
       </property>
       <property name="hidden-legacy-items" type="array">
         <value type="string" value="deadbeef"/>
-        <value type="string" value="bluetooth włączony"/>
       </property>
       <property name="hide-new-items" type="bool" value="true"/>
       <property name="icon-size" type="int" value="23"/>
