@@ -9,6 +9,6 @@ InTerminal=1
 StartupNotification=0
 ColorMode=1
 Foreground1=rgb(39,119,255)
-Foreground2=rgb(71,212,185)
+Foreground2=rgb(12,207,217)
 BarsColor=rgb(12,207,217)
 
