@@ -1,6 +1,6 @@
 layout=3
-date_font=Cantarell Ultra-Bold 10.7998046875
-time_font=Cantarell Ultra-Bold 10.7998046875
+date_font=Noto Sans Bold 11
+time_font=Noto Sans Bold 11
 date_format=%Y-%m-%d
 time_format=\ %k:%M\ \ 
 
