@@ -56,7 +56,7 @@
 </action>
 <action>
    <icon>utilities-terminal</icon>
-   <name>Open terminal Here</name>
+   <name>Open terminal here</name>
    <name xml:lang="am">ተርሚናል እዚህ መክፈቻ</name>
    <name xml:lang="ca">Obre un terminal aquí</name>
    <name xml:lang="da">Åbn terminal her</name>
@@ -104,31 +104,34 @@
 </action>
 <action>
    <icon></icon>
-   <name>Open root Thunar here</name>
-   <name xml:lang="am">Open root Thunar here</name>
-   <name xml:lang="ca">Obre Thunar com a administrador aquí</name>
-   <name xml:lang="da">Åbn root-Thunar her</name>
-   <name xml:lang="de">Thunar als Root hier öffnen</name>
-   <name xml:lang="el">Ανοίξτε το Thunar ως root εδώ</name>
-   <name xml:lang="es">Abrir Thunar como administrador</name>
-   <name xml:lang="fi">Avaa Thunar pääkäyttäjänä tässä kansiossa</name>
-   <name xml:lang="fr">Ouvrir ici Thunar en compte root</name>
-   <name xml:lang="it">Apri root Thunar qui</name>
-   <name xml:lang="lt">Open root Thunar here</name>
-   <name xml:lang="nl">Open root Thunar hier</name>
+   <name>Open as root here</name>
+   <name xml:lang="am">Open as root here</name>
+   <name xml:lang="ca">Obriu aquí com a administrador</name>
+   <name xml:lang="cz">Otevřít zde jako root</name>
+   <name xml:lang="da">Åbn her som root</name>
+   <name xml:lang="de">Als Root hier öffnen</name>
+   <name xml:lang="el">Ανοίξτε ως root εδώ</name>
+   <name xml:lang="es">Abrir como administrador</name>
+   <name xml:lang="fi">Avaa pääkäyttäjänä tässä kansiossa</name>
+   <name xml:lang="fr">Ouvrir ici en tant que compte root</name>
+   <name xml:lang="it">Apri qui come root</name>
+   <name xml:lang="lt">Atidaryti čia kaip root</name>
+   <name xml:lang="nl">Open hier als root</name>
    <name xml:lang="pl">Otwórz tutaj jako root</name>
-   <name xml:lang="pt_BR">Abrir Thunar de raíz aqui</name>
-   <name xml:lang="pt">Abrir Thunar de raíz aqui</name>
-   <name xml:lang="ru">Открыть папку от root</name>
-   <name xml:lang="sk">Open root Thunar here</name>
-   <name xml:lang="sl">Tukaj odprite korenski oz. root Thunar</name>
-   <name xml:lang="sv">Öppna root Thunar här</name>
-   <name xml:lang="zh_TW">在此處以 root 身份開啟 Thunar 視窗</name>
+   <name xml:lang="pt_BR">Abra aqui como root</name>
+   <name xml:lang="pt">Abra aqui como root</name>
+   <name xml:lang="ru">Открыть здесь как root</name>
+   <name xml:lang="sk">Otvoriť tu ako root</name>
+   <name xml:lang="sl">Odpri tukaj kot root</name>
+   <name xml:lang="sv">Öppna här som root</name>
+   <name xml:lang="ua">Відкрийте тут як root</name>
+   <name xml:lang="zh_TW">以 root 身份打開此處</name>
    <unique-id>1391443434179984-1</unique-id>
    <command>pkexec thunar %f</command>
    <description>Open this folder with administrative rights</description>
    <description xml:lang="am">Open this folder with administrative rights</description>
    <description xml:lang="ca">Obre aquesta carpeta amb drets d'administrador</description>
+   <description xml:lang="cz">Otevřete tuto složku s právy správce</name>
    <description xml:lang="da">Åbn mappen med administrative rettigheder</description>
    <description xml:lang="de">Dieses Verzeichnis mit Administratorenrechten öffnen</description>
    <description xml:lang="el">Ανοίξτε αυτό το φάκελο με δικαιώματα διαχειριστή</description>
@@ -142,9 +145,10 @@
    <description xml:lang="pt_BR">Abre esta pasta com permissões de administrador</description>
    <description xml:lang="pt">Abre esta pasta com permissões de administrador</description>
    <description xml:lang="ru">Открытие папки с правами администратора</description>
-   <description xml:lang="sk">Open this folder with administrative rights</description>
+   <description xml:lang="sk">Otvorte tento priečinok s právami správcu</description>
    <description xml:lang="sl">Odprite ta imenik s skrbniškimi pravicami</description>
    <description xml:lang="sv">Öppna denna mapp med administrativa rättigheter</description>
+   <description xml:lang="ua">Відкрийте цю папку з правами адміністратора</name>
    <description xml:lang="zh_TW">以系統管理員的權限開啟本資料夾</description>
    <patterns>*</patterns>
    <directories/>
