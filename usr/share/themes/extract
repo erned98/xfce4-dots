@@ -1,0 +1,3 @@
+#! /bin/bash
+
+for f in *.tar.xz; do sudo tar -xvf "$f" -C /usr/share/themes; done
