@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=11;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="35"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="20"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="22"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="16"/>
+        <value type="int" value="15"/>
+        <value type="int" value="17"/>
+        <value type="int" value="6"/>
+        <value type="int" value="5"/>
+        <value type="int" value="19"/>
+        <value type="int" value="7"/>
+        <value type="int" value="1"/>
+        <value type="int" value="21"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="background-style" type="int" value="0"/>
+      <property name="mode" type="int" value="0"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.050979999999999998"/>
+        <value type="double" value="0.050979999999999998"/>
+        <value type="double" value="0.050979999999999998"/>
+        <value type="double" value="0.75"/>
+      </property>
+      <property name="icon-size" type="uint" value="0"/>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="volumeicon"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="blueman-applet"/>
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="fbxkb"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="names-hidden" type="array">
+      </property>
+      <property name="size-max" type="uint" value="24"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="yad"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipit"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="deadbeef"/>
+        <value type="string" value="bluetooth włączony"/>
+        <value type="string" value="notatki"/>
+        <value type="string" value="aplet networkmanager"/>
+        <value type="string" value="menedżer schowka"/>
+        <value type="string" value="fbxkb"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="mx-tweak"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="mx-usb-unmounter"/>
+      </property>
+      <property name="hidden-legacy-items" type="array">
+        <value type="string" value="deadbeef"/>
+        <value type="string" value="bluetooth włączony"/>
+      </property>
+      <property name="hide-new-items" type="bool" value="true"/>
+      <property name="icon-size" type="int" value="23"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="hidden-items" type="array">
+        <value type="string" value="vlc"/>
+        <value type="string" value="mx-tweak"/>
+      </property>
+      <property name="symbolic-icons" type="bool" value="false"/>
+    </property>
+    <property name="plugin-20" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="datetime"/>
+    <property name="plugin-9" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+        <value type="string" value="-hybrid-sleep"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="audacious;firefox.instance10526;firefox.instance10722;firefox.instance10893;firefox.instance11439;firefox.instance11702;firefox.instance12106;firefox.instance12251;firefox.instance12415;firefox.instance13239;firefox.instance13702;firefox.instance14513;firefox.instance14836;firefox.instance15797;firefox.instance17904;firefox.instance18359;firefox.instance19071;firefox.instance19764;firefox.instance21535;firefox.instance22490;firefox.instance23821;firefox.instance24247;firefox.instance24326;firefox.instance26248;firefox.instance26831;firefox.instance2977;firefox.instance2979;firefox.instance2986;firefox.instance2994;firefox.instance2998;firefox.instance3000;firefox.instance3006;firefox.instance3027;firefox.instance3051;firefox.instance3068;firefox.instance3077;firefox.instance3078;firefox.instance3080;firefox.instance3081;firefox.instance3090;firefox.instance3091;firefox.instance3097;firefox.instance3098;firefox.instance3103;firefox.instance3109;firefox.instance3120;firefox.instance3123;firefox.instance3128;firefox.instance3133;firefox.instance3138;firefox.instance3139;firefox.instance3151;firefox.instance3153;firefox.instance3154;firefox.instance3155;firefox.instance3156;firefox.instance3158;firefox.instance3159;firefox.instance3160;firefox.instance3163;firefox.instance3165;firefox.instance3168;firefox.instance3175;firefox.instance3176;firefox.instance3179;firefox.instance3189;firefox.instance3195;firefox.instance3197;firefox.instance3203;firefox.instance3204;firefox.instance3207;firefox.instance3209;firefox.instance3212;firefox.instance3214;firefox.instance3220;firefox.instance3223;firefox.instance3225;firefox.instance3226;firefox.instance3228;firefox.instance3230;firefox.instance3232;firefox.instance3239;firefox.instance32413;firefox.instance3243;firefox.instance3245;firefox.instance3246;firefox.instance3248;firefox.instance3253;firefox.instance3254;firefox.instance3258;firefox.instance3269;firefox.instance3270;firefox.instance3277;firefox.instance3280;firefox.instance3281;firefox.instance3288;firefox.instance3291;firefox.instance3292;firefox.instance3294;firefox.instance3301;firefox.instance3302;firefox.instance3303;firefox.instance3304;firefox.instance3306;firefox.instance3309;firefox.instance3311;firefox.instance3314;firefox.instance3316;firefox.instance3317;firefox.instance3321;firefox.instance3323;firefox.instance3343;firefox.instance3345;firefox.instance3349;firefox.instance3352;firefox.instance3353;firefox.instance3357;firefox.instance3365;firefox.instance3366;firefox.instance3389;firefox.instance3395;firefox.instance3396;firefox.instance3410;firefox.instance3413;firefox.instance3424;firefox.instance3431;firefox.instance34325;firefox.instance34370;firefox.instance3439;firefox.instance3442;firefox.instance3444;firefox.instance3460;firefox.instance3465;firefox.instance3466;firefox.instance3512;firefox.instance35167;firefox.instance3553;firefox.instance3554;firefox.instance3594;firefox.instance3599;firefox.instance36382;firefox.instance36457;firefox.instance3648;firefox.instance3692;firefox.instance3701;firefox.instance3708;firefox.instance38029;firefox.instance3833;firefox.instance3839;firefox.instance38753;firefox.instance4035;firefox.instance4167;firefox.instance4198;firefox.instance4202;firefox.instance4364;firefox.instance43672;firefox.instance4517;firefox.instance46098;firefox.instance4627;firefox.instance4842;firefox.instance4988;firefox.instance5708;firefox.instance5759;firefox.instance5764;firefox.instance5959;firefox.instance6188;firefox.instance6439;firefox.instance6469;firefox.instance6656;firefox.instance6959;firefox.instance7318;firefox.instance7555;firefox.instance8393;vlc;vlc.instance52318"/>
+    </property>
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+        <property name="max-menu-items" type="uint" value="5"/>
+        <property name="paste-on-activate" type="uint" value="1"/>
+        <property name="popup-at-pointer" type="bool" value="true"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="max-texts-in-history" type="uint" value="10"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="separator"/>
+    <property name="plugin-3" type="string" value="showdesktop"/>
+    <property name="plugin-4" type="string" value="places">
+      <property name="show-recent-number" type="int" value="5"/>
+      <property name="mount-open-volumes" type="bool" value="true"/>
+    </property>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16778446563.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16778446764.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-12" type="string" value="separator"/>
+    <property name="plugin-13" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator"/>
+    <property name="plugin-16" type="string" value="tasklist">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="grouping" type="bool" value="true"/>
+      <property name="include-all-workspaces" type="bool" value="true"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-17" type="string" value="cpugraph"/>
+    <property name="plugin-19" type="string" value="notification-plugin"/>
+    <property name="plugin-21" type="string" value="separator"/>
+    <property name="plugin-22" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16778455045.desktop"/>
+      </property>
+    </property>
+  </property>
+  <property name="clipman" type="empty">
+    <property name="tweaks" type="empty">
+      <property name="never-confirm-history-clear" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>
